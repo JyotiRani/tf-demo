@@ -1,6 +1,6 @@
 # AWS Infrastructure with Terraform
 
-Complete Terraform configuration to provision AWS infrastructure based on the architecture diagram, featuring EC2 instance with Session Manager access, VPC, and EBS storage done.
+Complete Terraform configuration to provision AWS infrastructure based on the architecture diagram, featuring EC2 instance with Session Manager access, VPC, and EBS storage done .
 
 ## 🏗️ Architecture Overview
 
