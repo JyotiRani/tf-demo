@@ -400,7 +400,7 @@ resource "aws_ebs_volume" "data" {
   availability_zone = var.availability_zone
   size              = var.ebs_volume_size
   type              = "gp3"
-  encrypted         = true
+  encrypted         = false
 
   tags = {
     Name = "${var.project_name}-data-volume"
