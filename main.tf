@@ -383,7 +383,7 @@ resource "aws_instance" "main" {
               EOF
 
   tags = {
-    Name = "${var.project_name}-ec2-instance1"
+    Name = "${var.project_name}-ec2-instance"
   }
 
   # Ensure IAM role is created before instance
