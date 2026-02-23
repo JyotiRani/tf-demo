@@ -149,7 +149,7 @@ resource "aws_security_group" "ec2_sg" {
   }
 
   tags = {
-    Name = "${var.project_name}-ec2-sg1"
+    Name = "${var.project_name}-ec2-sg"
   }
 }
 
