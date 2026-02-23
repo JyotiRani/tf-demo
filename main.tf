@@ -214,7 +214,7 @@ resource "aws_instance" "main" {
     volume_type           = "gp3"
     volume_size           = 8
     delete_on_termination = true
-    encrypted             = true
+    encrypted             = false
 
     tags = {
       Name = "${var.project_name}-root-volume"
